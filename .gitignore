@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# If you're using PostgreSQL:
+*.pgsql
+
+# If you're using MySQL:
+*.myd
+*.myi
+*.err
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.log
+**/migrations/__pycache__/
+**/migrations/*~backup*
+
+# Media files
+media/
+
+# Static files
+static/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
