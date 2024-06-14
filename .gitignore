@@ -72,3 +72,7 @@ htmlcov/
 
 # Pytest
 .pytest_cache/
+
+# Ignore Django migration files
+*/migrations/*
+!*/migrations/__init__.py
